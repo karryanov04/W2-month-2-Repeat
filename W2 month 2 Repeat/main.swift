@@ -7,5 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+var user = User(name: "Raul", surenmae: "Karyanov")
+var student = Student(year: 2020, course: 0)
+student.getCourse()
+
 
